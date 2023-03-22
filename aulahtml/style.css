@@ -1,0 +1,163 @@
+body{
+    background-color: #f4f4f4;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+section{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header{
+    padding: 50px;
+}
+
+#header div{
+    display: inline-block;
+}
+
+#header .contato{
+    float: right;
+}
+
+nav.menu{
+    background-color: #ffda1f;
+    text-align: center;
+} 
+
+nav.menu ul li{
+    display: inline-block;
+    padding: 18px 90px;
+    font-size: 17px;
+}
+
+nav.menu ul li a{
+    color: #000;
+}
+
+a{
+    text-decoration: none;
+}
+
+.banner img{
+    width: 100%;
+}
+
+.marcas ul li{
+    display: inline-block;
+    font-size: 35px;
+    width: 16%;
+    padding: 50px;
+}
+
+div.item{
+    display: inline-block;
+    width: 24%;
+}
+
+img{
+    width: 100%;
+}
+
+.item{
+    font-size: 25px; 
+    padding: 1.5%;  
+}
+
+.produtos{
+    margin-left: 40px;
+}
+
+.produtos{
+    text-align: center;
+}
+
+.produtos .titulo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos .subtitulo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.sublinhado{
+    width: 150px;
+    background: #ffda1f;
+    height: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+a:hover{
+    transition: 0.3s;
+    opacity: 0.8;
+}
+
+footer {
+    background-color: darkgrey;
+    padding: 2px;
+  }
+
+  footer p {
+    font-size: 30px; 
+    margin: 0;
+  }
+  
+  footer a {
+    color: #ffda1f;
+  }
+
+  .text-container{
+    color: blue;
+  }
+
+  .text-container {
+    flex-basis: 60px;
+    padding: 10px;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .map-container {
+    flex-basis: 20%;
+  }
+  
+  .map {
+    height: 450px; 
+    margin: 10px;
+  }
+
+  .botao a {
+    background: #000;
+    color: #f4f4f4;
+    padding: 10px 20px;
+  }
+
+  .botao{
+    margin-top: 10%;
+  }
+
+  .map-container{
+    margin-top: 600px;
+  }
+
+    .footer-container{
+        background-color: #474747;
+    }
+
+
+
+    
+
+
